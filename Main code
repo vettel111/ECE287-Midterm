@@ -1,0 +1,43 @@
+/*
+  Zhiyun Deng
+  ECE387 Midterm
+
+*/
+int vibr_pin=3;
+int LED1=13;
+int LED2=12;
+int LED3=10;
+int LED4=8;
+void setup() {
+  pinMode(vibr_pin,INPUT);
+  pinMode(LED1,OUTPUT);
+}
+
+void loop() {
+  int val;
+  val=digitalRead(vibr_pin);
+  if(val==1)
+  {
+    digitalWrite(LED1,HIGH);
+    delay(300);
+    digitalWrite(LED2,HIGH);
+    delay(300);
+    digitalWrite(LED3,HIGH);
+    delay(300);
+    digitalWrite(LED4,HIGH);
+    delay(300);
+    digitalWrite(LED1,LOW);
+    delay(300);
+    digitalWrite(LED2,LOW);
+    delay(300);
+    digitalWrite(LED3,LOW);
+    delay(300);
+    digitalWrite(LED4,LOW);
+    delay(300);
+   }
+   else
+   digitalWrite(LED1,LOW);
+   digitalWrite(LED2,LOW);
+   digitalWrite(LED3,LOW);
+   digitalWrite(LED4,LOW);
+}

@@ -3,11 +3,14 @@ Zhiyun Deng
 
 Sensor:Vibration Sensor SW-420
 
-Working voltage: 3.3V to 5V
-
-Output form: digital switch output (0 and 1)
+Dimension: 3.2cm x 1.4cm;
+Working voltage: 3.3V to 5V;
+Output form: digital switch output (0 and 1);
+On-board indicator LED to show the results;
+On-board LM393 chip;
 
 Principle:
+
 Usually at any angle switch is ON state, by the vibration or movement, the rollers of
 the conduction current in the switch will produce a movement or vibration, causing the
 current through the disconnect or the rise of the resistance and trigger circuit. The
